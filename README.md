@@ -36,8 +36,8 @@ This section provides key insights derived from the cleaned dataset, including p
 
 ---
 
-```text
 ## 📁 Project Structure
+```text
 price_watcher_ua/
 ├── src/
 │   ├── data_analysis/
@@ -51,7 +51,6 @@ price_watcher_ua/
 │   └── clean_mobile_price.csv
 ├── html_file/
 │   └── rozetkapage1.html, rozetkapage2.html, ..., ~rozetkapage93.html  # HTML pages saved by the script
-├── README.md
 └── requirements.txt
 ```
 
@@ -71,13 +70,18 @@ pip install -r requirements.txt
 
 ## 🚀 Running the Scrapers
 To run the scraper:
-    python3.11 src/scraper/scraper.py
+```bash
+python3.11 src/scraper/scraper.py
+```
 To run the data cleaning:
-    python3.11 src/data_analysis/clean_data.py
+```bash
+python3.11 src/data_analysis/clean_data.py
+```
 To run the data analysis Jupyter Notebook:
-    Open the data_analysis.ipynb file using Jupyter Notebook or JupyterLab. 
-    You can launch Jupyter Notebook with the command:
-        jupyter notebook
-    Then navigate to the notebook file in your browser and run the cells step by step to explore data visualizations, statistics,
-    and insights generated from the cleaned phone pricing dataset.
-
+```text
+Open the data_analysis.ipynb file using Jupyter Notebook or JupyterLab. 
+You can launch Jupyter Notebook with the command:
+jupyter notebook
+Then navigate to the notebook file in your browser and run the cells step by step to explore data visualizations, statistics,
+and insights generated from the cleaned phone pricing dataset.
+```
