@@ -55,7 +55,7 @@ samsung galaxy fold 7 12/512gb silver shadow (smf966bzscsek),Передзамо�
 
 ---
 
-## 📊 Data Insights and Analysis
+## 📊 Data Insights and Analysis:
 This section provides key insights derived from the cleaned dataset, including pricing trends, brand statistics, and product rankings:
 - 🔢 **Number of unique phone brands**
 - 💰 **Average (mean) price per brand**
@@ -69,7 +69,7 @@ This section provides key insights derived from the cleaned dataset, including p
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure:
 ```text
 price_watcher_ua/
 ├── src/
@@ -89,11 +89,11 @@ price_watcher_ua/
 
 ---
 
-## ⚙️ Requirements
+## ⚙️ Requirements:
 - Python 3.11  
 - Firefox (used with Selenium — can be replaced with another browser in the code)
 
-### Python Libraries
+### Python Libraries:
 Install dependencies using:
 ```bash
 pip install -r requirements.txt
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Running the Scrapers
+## 🚀 Running the Scrapers:
 To run the scraper:
 ```bash
 python3.11 src/scraper/scraper.py
