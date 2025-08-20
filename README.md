@@ -4,7 +4,7 @@ In this web-scraper project, I collected data on mobile phones from [rozetka.com
 ---
 
 ## 📄 Data Fields Collected (JSON, CSV):
-- **brand** – phone brand  
+- **phone_name** – full name of the phone  
 - **status** – availability of the phone on the website  
 - **rating** – phone rating  
 - **bonus** – bonuses received upon purchase  
@@ -12,13 +12,46 @@ In this web-scraper project, I collected data on mobile phones from [rozetka.com
 - **price** – regular/discounted price  
 
 ## 📄 Data Fields Collected (CSV) after Data Cleaning:
-- **brand** – phone brand  
+- **phone_name** – full name of the phone  
 - **status** – availability of the phone on the website  
 - **rating** – phone rating  
 - **bonus** – bonuses received upon purchase  
 - **price_before_discount** – price before discount (if any)  
 - **price** – regular/discounted price  
+- **brand** – phone brand  
 - **discount_procent** – discount percentage  
+
+---
+
+## Output Data(JSON):
+```bash
+{
+    "brand": "Мобільний телефон Samsung Galaxy S24 FE 8/256GB Graphite (SM-S721BZKGEUC)",
+    "status": "Готовий до відправлення",
+    "rating": "145",
+    "bonus": "234",
+    "price_before_discount": "26099",
+    "price": "23499"
+}
+```
+
+## Output Data(CSV)
+```bash
+phone_name,status,rating,bonus,price_before_discount,price                                                                                                                                                                                
+Мобільний телефон Samsung Galaxy S24 FE 8/256GB Graphite (SM-S721BZKGEUC),Готовий до відправлення,145,234,26099,23499
+Мобільний телефон Apple iPhone 16 Pro Max 256GB Black Titanium (MYWV3SX/A),Готовий до відправлення,128,627,67999,62799
+Мобільний телефон Samsung Galaxy A16 8/256GB Black (SM-A165FZKCEUC),Готовий до відправлення,137,73,8499,7399
+Мобільний телефон Samsung Galaxy Fold 7 12/512GB Silver Shadow (SM-F966BZSCSEK),Передзамовлення,1,849,89999,84999
+```
+
+## Output Data(CSV) after Data Cleaning:
+```bash
+phone_name,status,rating,bonus,price_before_discount,price,brand,discount_procent                                                                                                                                                          
+samsung galaxy s24 fe 8/256gb graphite (sms721bzkgeuc),Готовий до відправлення,145,234,26099,23499,samsung,10
+apple iphone 16 pro max 256gb black titanium (mywv3sx/a),Готовий до відправлення,128,627,67999,62799,apple,8
+samsung galaxy a16 8/256gb black (sma165fzkceuc),Готовий до відправлення,137,73,8499,7399,samsung,13
+samsung galaxy fold 7 12/512gb silver shadow (smf966bzscsek),Передзамовлення,1,849,89999,84999,samsung,6
+```
 
 ---
 
