@@ -35,7 +35,7 @@ In this web-scraper project, I collected data on mobile phones from [rozetka.com
 }
 ```
 
-## Output Data(CSV)
+## Output Data(CSV):
 ```bash
 phone_name,status,rating,bonus,price_before_discount,price                                                                                                                                                                                
 Мобільний телефон Samsung Galaxy S24 FE 8/256GB Graphite (SM-S721BZKGEUC),Готовий до відправлення,145,234,26099,23499
